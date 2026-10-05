@@ -1,0 +1,40 @@
+/* common styles */
+@font-face {
+    font-family: "sansdn_regular";
+    src: url("../fonts/sansdn_regular.ttf");
+}
+
+@font-face {
+    font-family: "sansdn_light";
+    src: url("../fonts/sansdn_light.ttf");
+}
+
+@font-face {
+    font-family: "sansdn_bold";
+    src: url("../fonts/sansdn_bold.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'sansdn_regular';
+    font-size: 14px;
+}
+/* common styles */
+
+/* home page */
+.header {
+    background-color: #051934;
+}
+
+nav.navbar {
+    width: 1000px;
+    background-color: #eead16;
+    color: #504523;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -30px;
+}
+/* home page */
