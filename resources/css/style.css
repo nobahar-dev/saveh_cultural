@@ -24,6 +24,18 @@ body {
 }
 /* common styles */
 
+/* animations */
+@keyframes icon-effect {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    100% {
+        transform: rotate(7deg) scale(1.08);
+    }
+}
+/* animations */
+
 /* home page */
 .header {
     background-color: #051934;
@@ -94,4 +106,144 @@ nav.navbar {
     object-fit: cover;
     object-position: center;
 }
+
+.slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.slider-title {
+    font-family: "sansdn_bold";
+    font-size: 36px;
+}
+
+.slider-subtitle {
+    font-family: 'sansdn_regular';
+    font-size: 28px;
+}
 /* home page */
+
+/* cultural overview */
+.cultural-overview {
+    background-color: #051934;
+    position: relative;
+    z-index: 10;
+    padding: 40px;
+}
+
+.cultural-info {
+    background-color: #eead16;
+    padding: 60px 40px;
+    margin-top: -150px;
+    z-index: 1000000;
+}
+
+.cultural-info-title {
+    font-family: "sansdn_bold";
+    font-size: 26px;
+    color: #03285b;
+}
+
+.cultural-info-subtitle {
+    font-family: 'sansdn_bold';
+    color: #1A1A1A;
+    font-size: 20px;
+}
+
+.cultural-info-separator {
+    width: 200px;
+    border-top: 3px double black;
+    border-bottom: 3px double black;
+}
+
+.cultural-info-content {
+    font-family: 'sansdn_regular';
+    font-size: 16px;
+    color: #1A1A1A;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.cultural-info-footer {
+    font-family: 'sansdn_bold';
+    color: #1A1A1A;
+    font-size: 20px;
+}
+
+.event-icon img {
+    width: 90px;
+    transform: rotate(0deg) scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.event-item {
+    padding: 15px 0;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.event-item:hover {
+    background-color: rgba(192, 192, 192, 0.2);
+}
+
+.event-item:hover .event-icon img {
+    transform: rotate(7deg) scale(1.08);
+}
+
+.event-title {
+    font-family: 'sansdn_bold';
+    font-size: 18px;
+    color: white;
+}
+
+.event-separator {
+    width: 100px;
+    border: 1px dashed #9ba3ae;
+    margin-top: 15px;
+}
+
+.event-subtitle {
+    font-family: 'sansdn_light';
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+/* cultural overview */
+
+/* slogan */
+.slogan {
+    padding: 150px 0;
+}
+
+.slogan-title {
+    font-family: 'sansdn_bold';
+    font-size: 40px;
+    color: #1A1A1A;
+}
+
+.slogan-subtitle {
+    font-family: 'sansdn_regular';
+    font-size: 20px;
+    color: #1A1A1A;
+}
+/* slogan */
+
+/* last events */
+.last-events {
+    background-color: #eead16;
+    padding: 10px;
+}
+
+.last-events-title-wrapper {
+    color: #1A1A1A;
+}
+
+.last-e-title {
+    font-family: 'sansdn_bold';
+    font-size: 24px;
+    padding: 0 20px;
+}
+/* last events */
