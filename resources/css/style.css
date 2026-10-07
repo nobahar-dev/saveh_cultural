@@ -21,6 +21,7 @@ html {
 body {
     font-family: 'sansdn_regular';
     font-size: 14px;
+    background-color: #fffefe;
 }
 /* common styles */
 
@@ -326,3 +327,48 @@ nav.navbar {
     font-size: 18px;
 }
 /* last events */
+
+/* last news */
+.last-news-title-wrapper img {
+    width: 75px;
+}
+
+.lst-section-title::before, .lst-section-title::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #eead16;
+}
+
+.lst-section-title span {
+    font-family: 'sansdn_bold';
+    font-size: 26px;
+    color: #1a1a1a;
+}
+
+.lst-section-subtitle {
+    font-family: 'sansdn_regular';
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+.most-news-title {
+    background-color: #f7f8fc;
+    border-bottom: 1px solid #d8dbdf;
+}
+
+.most-news-title p {
+    font-family: 'sansdn_bold';
+    font-size: 20px;
+    color: #1a1a1a;
+}
+
+.most-news-title i {
+    color: #eead16;
+    font-size: 28px;
+}
+
+.m-news-content img {
+    width: 120px;
+}
+/* last news */
