@@ -28,4 +28,25 @@ new Swiper('.last-events-swiper', {
             spaceBetween: 10,
         },
     },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
+
+new Swiper('.gallery-swiper', {
+    slidesPerView: 3,
+    grid: {
+        rows: 2,
+        fill:'row'
+    },
+    navigation: {
+        nextEl: '.gallery-next',
+        prevEl: '.gallery-prev',
+    },
+    spaceBetween: 30,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
 });
