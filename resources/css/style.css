@@ -575,5 +575,22 @@ nav.navbar {
 .city-slogan {
     font-size: 16px;
     text-align: justify;
+    line-height: 30px;
+}
+
+.city-contact-item {
+    font-size: 16px;
+}
+
+.social-item {
+    border: 2px solid #cae1f5;
+    border-radius: 10px;
+    padding: 2px 10px;
+    font-size: 26px;
+    color: #9dbae8;
+}
+
+.social-item i::before {
+    margin-top: 8px;
 }
 /* footer */
