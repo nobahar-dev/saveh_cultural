@@ -563,3 +563,17 @@ nav.navbar {
     object-fit: cover;
 }
 /* city image */
+
+/* footer */
+.footer {
+    background-color: #051934;
+    color: #cae1f5;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+}
+
+.city-slogan {
+    font-size: 16px;
+    text-align: justify;
+}
+/* footer */
