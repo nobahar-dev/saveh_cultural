@@ -673,6 +673,32 @@ nav.navbar {
 
     .most-see-news {
         display: none;
-    }    
+    }
+    
+    .g-title {
+        font-size: 14px;
+    }
+
+    .g-date {
+        font-size: 14px;
+    }
+
+    .g-read {
+        font-size: 12px;
+    }
+
+    .g-category {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:992px) {
+    .news-category {
+        font-size: 12px;
+    }
+
+    .news-date {
+        font-size: 12px;
+    }
 }
 /* home page responsive */
