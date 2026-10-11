@@ -16,14 +16,18 @@ new Swiper('.last-events-swiper', {
     spaceBetween: 10,
     breakpoints: {
         640: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
         },
         768: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 20,
         },
         1024: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        1400: {
             slidesPerView: 4,
             spaceBetween: 10,
         },
