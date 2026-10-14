@@ -54,3 +54,10 @@ new Swiper('.gallery-swiper', {
         clickable: true,
     },
 });
+
+GLightbox({
+    selector: '.gallery-item',
+    loop: true,
+    zoomable: true,
+    touchNavigation: true
+});
