@@ -55,6 +55,7 @@ new Swiper('.gallery-swiper', {
     },
 });
 
+// slider in detail page
 GLightbox({
     selector: '.gallery-item',
     loop: true,

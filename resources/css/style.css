@@ -731,7 +731,7 @@ nav.navbar {
 /* BLOG PAGE STYLES START FROM HERE */
 
 /* blog head */
-.blog-head {
+.blog-hero {
     width: 100%;
     height: 380px;
     min-height: 380px;
@@ -741,7 +741,7 @@ nav.navbar {
     background-image: url('../images/blog-top-header.png');
 }
 
-.blog-title-area {
+.hero-title-area {
     width: max-content;
     height: 100%;
     padding: 0 80px;
@@ -757,26 +757,26 @@ nav.navbar {
     -webkit-backdrop-filter: blur(2px);
 }
 
-.blog-title {
+.hero-title {
     font-family: 'sansdn_bold';
     font-size: 27px;
     color: white;
 }
 
-.blog-separator {
+.hero-separator {
     width: 200px;
     height: 2px;
     background-color: #ffca16;
     border-radius: 15px;
 }
 
-.blog-subtitle {
+.hero-subtitle {
     font-family: 'sansdn_regular';
     font-size: 18px;
     color: white;
 }
 
-.blog-title img {
+.hero-title img {
     width: 40px;
 }
 /* blog head */
@@ -889,29 +889,29 @@ nav.navbar {
 }
 
 @media (max-width:1200px) {
-    .blog-title {
+    .hero-title {
         font-size: 18px;
     }
 
-    .blog-title img {
+    .hero-title img {
         width: 20px;
     }
 
-    .blog-separator {
+    .hero-separator {
         width: 120px;
     }
 
-    .blog-subtitle {
+    .hero-subtitle {
         font-size: 12px;
     }
 
-    .blog-title-area {
+    .hero-title-area {
         padding: 0 20px;
     }
 }
 
 @media (max-width:768px) {
-    .blog-title-area {
+    .hero-title-area {
         width: 100%!important;
         min-width: 100%;
     }
@@ -1151,3 +1151,80 @@ nav.navbar {
 }
 
 /* blog detail page */
+
+/* about page */
+.about-hero {
+    width: 100%;
+    height: 380px;
+    min-height: 380px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url('../images/about_hero.png');
+}
+
+.sec-intro {
+    font-family: 'sansdn_bold';
+    font-size: 20px;
+}
+
+.sec-intro::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #ffca16;
+    margin-left: 10px;
+}
+
+.sec-title {
+    font-family: 'sansdn_bold';
+    font-size: 28px;
+}
+
+.overview-content {
+    font-family: 'sansdn_regular';
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.cultural-img img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.missions-wrapper, .statistics-wrapper {
+    background-color: #043056;
+    border-radius: 20px;
+}
+
+.mission-icon, .stat-icon {
+    color: #ffca16;
+    font-size: 38px;
+}
+
+.mission-title, .stat-title {
+    color: white;
+    font-family: 'sansdn_bold';
+    font-size: 20px;
+}
+
+.mission-content, .stat-content {
+    color: #afc9e2;
+    font-family: 'sansdn_regular';
+    font-size: 15px;
+}
+
+.mission-separator, .stat-separator {
+    width: 2px;
+    height: 120px;
+    margin: 0 20px;
+    background-color: #afc9e2;
+}
+
+.stat-content {
+    font-family: 'sansdn_bold';
+    font-size: 28px;
+}
+/* about page */
