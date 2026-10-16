@@ -1228,3 +1228,42 @@ nav.navbar {
     font-size: 28px;
 }
 /* about page */
+
+/* contact page */
+.contact-frm-title {
+    font-family: 'sansdn_bold';
+    font-size: 30px;
+    color: #01102A;
+}
+
+.contact-frm-subtitle {
+    font-family: 'sansdn_regular';
+    font-size: 16px;
+    color: #01102A;
+}
+
+.contact-info-wrapper {
+    background-color: #eef7fe;
+}
+
+.info-icon {
+    background-color: #d6eef2;
+    padding: 20px 30px;
+}
+
+.info-icon i {
+    font-size: 24px;
+    color: #019ea0;
+    margin-top: 5px;
+}
+
+.info-title {
+    font-family: 'sansdn_bold';
+    font-size: 18px;
+}
+
+.info-subtitle {
+    font-family: 'sansdn_regular';
+    font-size: 16px;
+}
+/* contact page */
