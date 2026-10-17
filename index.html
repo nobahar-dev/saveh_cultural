@@ -169,18 +169,66 @@
     </section>
     <!-- overview -->
 
-    <!-- slogan -->
-    <section class="slogan d-flex flex-column align-items-center justify-content-center">
-        <div class="slogan-title text-center">حقوق و اخلاق حرفه ای اعتبار کار ماست</div>
-        <div class="slogan-subtitle text-center">
-            حقوق و اخلاق حرفه‌ای، پایه‌ی اعتماد و اعتبار کار ماست.
-            با رعایت اصول حرفه‌ای، کیفیت و اعتماد را در مسیر کاری خود حفظ می‌کنیم
-        </div>
-    </section>
-    <!-- slogan -->
+    <!-- one-eye -->
+    <div class="container">
+        <section class="one-eye mt-5">
+            <a class="section-title-wrapper text-decoration-none d-flex flex-column align-items-center justify-content-center gap-2">
+                <img src="resources/images/one_eye.png" alt="">
+                <div class="section-title d-flex align-items-center justify-content-center gap-4">
+                    <span>در یک نگاه</span>
+                </div>
+            </a>
+
+            <div class="statistics-wrapper shadow-lg p-3 d-flex align-items-center justify-content-around flex-wrap mt-4 gap-2">
+                <div class="stat-item d-flex flex-column justify-content-center align-items-center">
+                    <div class="stat-icon">
+                        <i class="bi bi-book"></i>
+                    </div>
+                    <div class="stat-title text-center">
+                        تعداد برنامه های سالانه
+                    </div>
+                    <div class="stat-content mt-2 text-center" id="stat1">0</div>
+                </div>
+                <div class="stat-separator d-none d-lg-block"></div>
+
+                <div class="stat-item d-flex flex-column justify-content-center align-items-center">
+                    <div class="stat-icon">
+                        <i class="bi bi-person-check"></i>
+                    </div>
+                    <div class="stat-title text-center">
+                        مشارکت ها
+                    </div>
+                    <div class="stat-content mt-2 text-center" id="stat2">0</div>
+                </div>
+                <div class="stat-separator d-none d-lg-block"></div>
+
+                <div class="stat-item d-flex flex-column justify-content-center align-items-center">
+                    <div class="stat-icon">
+                        <i class="bi bi-bank"></i>
+                    </div>
+                    <div class="stat-title text-center">
+                        فرهنگسراها
+                    </div>
+                    <div class="stat-content mt-2 text-center" id="stat3">0</div>
+                </div>
+                <div class="stat-separator d-none d-lg-block"></div>
+
+                <div class="stat-item d-flex flex-column justify-content-center align-items-center">
+                    <div class="stat-icon">
+                        <i class="bi bi-dribbble"></i>
+                    </div>
+                    <div class="stat-title text-center">
+                        مجموعه های ورزشی
+                    </div>
+                    <div class="stat-content mt-2 text-center" id="stat4">0</div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- one-eye -->
 
     <!-- last events -->
-    <section class="last-events mt-4">
+    <section class="last-events mt-5">
         <div class="last-events-title-wrapper d-flex align-items-center">
             <i class="bi bi-dot"></i>
             <div class="last-e-title">آخرین آئین ها و رویدادها</div>
@@ -1005,8 +1053,39 @@
     </div>
    </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/countup.js@2.10.1/dist/countUp.umd.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
 <script src="resources/js/bootstrap.bundle.js"></script>
 <script src="resources/js/app.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    const stats = [
+        ['stat1', 25],
+        ['stat2', 120],
+        ['stat3', 15000],
+        ['stat4', 25000]
+    ];
+
+    const options = {
+        duration: 2.5,
+        useGrouping: true,
+        autoAnimate: true,
+        autoAnimateOnce: true
+    };
+
+    stats.forEach(([id, target]) => {
+
+        const counter = new countUp.CountUp(id, target, options);
+
+        if (counter.error) {
+            console.error(counter.error);
+        }
+
+    });
+
+});
+</script>
 </body>
 </html>
