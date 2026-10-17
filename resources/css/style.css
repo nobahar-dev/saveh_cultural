@@ -738,7 +738,7 @@ nav.navbar {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    background-image: url('../images/blog-top-header.png');
+    background-image: url('../images/blog-top-header.jpeg');
 }
 
 .hero-title-area {
@@ -949,7 +949,7 @@ nav.navbar {
 }
 
 .blog-detail-title {
-    background-image: url('../images/top_blog_title.png');
+    background-image: url('../images/top_blog_title.jpeg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1160,7 +1160,7 @@ nav.navbar {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    background-image: url('../images/about_hero.png');
+    background-image: url('../images/about_hero.jpeg');
 }
 
 .sec-intro {
