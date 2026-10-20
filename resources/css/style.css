@@ -39,15 +39,19 @@ body {
 
 /* home page */
 .header {
-    background-color: #051934;
+    background-color: #087F75;
+}
+
+.site-logo {
+    width: 280px;
+    margin: 0 auto;
 }
 
 nav.navbar {
     position: absolute;
     width: 100%;
     max-width: 1200px;
-    background-color: #eead16;
-    color: #504523;
+    background-color: #075B57;
     border-radius: 30px;
     top: 130px;
     left: 50%;
@@ -60,33 +64,33 @@ nav.navbar {
     font-size: 16px;
     transition: all .3s ease-in-out;
     border-radius: 20px;
-    margin: 0 5px;
+    margin: 0 2px;
+    color: #a3aca9!important;
 }
 
 .active {
-    background-color: #051934!important;
-    color: white!important;
+    background-color: #087F75!important;
+    color: #E7F5F1!important;
 }
 
 .nav-link:hover {
-    background-color: #051934;
-    color: white;
+    background-color: #087F75!important;
+    color: #E7F5F1!important;
 }
 
 .search-input {
-    width: 150px;
+    width: 220px;
     height: 35px;
     border-radius: 20px;
     border: none;
     outline: none;
     padding: 0 8px;
-    background-color: #051934;
-    color: white;
-    transition: width .3s ease-in-out;
+    background-color: #087F75;
+    color: #E7F5F1;
 }
 
-.search-input:hover {
-    width: 220px;
+.search-input::placeholder {
+    color: #172A3A;
 }
 
 .bi-search {
@@ -129,48 +133,48 @@ nav.navbar {
 
 /* cultural overview */
 .cultural-overview {
-    background-color: #051934;
+    background-color: #087F75;
     position: relative;
     z-index: 10;
     padding: 40px;
 }
 
 .cultural-info {
-    background-color: #eead16;
+    background-color: #075B57;
     padding: 60px 40px;
-    margin-top: -150px;
+    margin-top: -200px;
     z-index: 1000000;
 }
 
 .cultural-info-title {
     font-family: "sansdn_bold";
     font-size: 26px;
-    color: #03285b;
+    color: #D9B34A;
 }
 
 .cultural-info-subtitle {
     font-family: 'sansdn_bold';
-    color: #1A1A1A;
+    color: #E7F5F1;
     font-size: 20px;
 }
 
 .cultural-info-separator {
     width: 200px;
-    border-top: 3px double black;
-    border-bottom: 3px double black;
+    border-top: 3px double #D9B34A;
+    border-bottom: 3px double #D9B34A;
 }
 
 .cultural-info-content {
     font-family: 'sansdn_regular';
     font-size: 16px;
-    color: #1A1A1A;
+    color: #E7F5F1;
     line-height: 30px;
     text-align: justify;
 }
 
 .cultural-info-footer {
     font-family: 'sansdn_bold';
-    color: #1A1A1A;
+    color: #E7F5F1;
     font-size: 20px;
 }
 
@@ -197,7 +201,7 @@ nav.navbar {
 .event-title {
     font-family: 'sansdn_bold';
     font-size: 18px;
-    color: white;
+    color: #E7F5F1;
 }
 
 .event-separator {
@@ -209,7 +213,7 @@ nav.navbar {
 .event-subtitle {
     font-family: 'sansdn_light';
     font-size: 16px;
-    color: white;
+    color: #E7F5F1;
     margin-top: 10px;
 }
 /* cultural overview */
