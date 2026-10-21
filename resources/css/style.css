@@ -65,7 +65,7 @@ nav.navbar {
     transition: all .3s ease-in-out;
     border-radius: 20px;
     margin: 0 2px;
-    color: #a3aca9!important;
+    color: #cadfd8!important;
 }
 
 .active {
@@ -90,7 +90,7 @@ nav.navbar {
 }
 
 .search-input::placeholder {
-    color: #172A3A;
+    color: #cadfd8;
 }
 
 .bi-search {
