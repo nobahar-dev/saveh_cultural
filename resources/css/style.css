@@ -42,6 +42,72 @@ body {
     background-color: #087F75;
 }
 
+.iran-flag {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.iran-flag img {
+    width: 230px;
+}
+
+.iran-leaders {
+    position: absolute;
+    top: 12px;
+    left: 50px;
+}
+
+.iran-leaders img {
+    width: 210px;
+}
+
+@media (max-width:1700px) {
+    .iran-leaders{
+        top: 20px;
+    }
+
+    .iran-leaders img {
+        width: 170px;
+    }
+
+    .iran-flag {
+        top: 25px;
+    }
+
+    .iran-flag img {
+        width: 170px;
+    }
+}
+
+@media (max-width:768px) {
+    .iran-leaders{
+        left: 10px;
+    }
+
+    .iran-leaders img {
+        width: 130px;
+    }
+
+    .iran-flag {
+        right: 10px;
+    }
+
+    .iran-flag img {
+        width: 130px;
+    }
+}
+
+@media (max-width:576px) {
+    .iran-leaders {
+        display: none;
+    }
+
+    .iran-flag {
+        display: none;
+    }
+}
+
 .site-logo {
     width: 280px;
     margin: 0 auto;
@@ -238,7 +304,7 @@ nav.navbar {
 
 /* last events */
 .last-events {
-    background-color: #eead16;
+    background-color: #D9B34A;
     padding: 70px 0 90px;
     clip-path: polygon(
         0 0,
@@ -251,7 +317,7 @@ nav.navbar {
 }
 
 .last-events-title-wrapper {
-    color: #1A1A1A;
+    color: #172A3A;
 }
 
 .bi-dot {
@@ -595,8 +661,8 @@ nav.navbar {
 
 /* footer */
 .footer {
-    background-color: #051934;
-    color: #cae1f5;
+    background-color: #087F75;
+    color: #E7F5F1;
     border-top-right-radius: 200px;
     border-top-left-radius: 200px;
 }
@@ -612,11 +678,17 @@ nav.navbar {
 }
 
 .social-item {
-    border: .5px solid #cae1f5;
+    border: .5px solid #E7F5F1;
     border-radius: 10px;
     padding: 0 8px;
-    font-size: 26px;
-    color: #9dbae8;
+    font-size: 20px;
+    color: #E7F5F1;
+    transition: all .3s ease-in-out;
+}
+
+.social-item:hover {
+    color: #D9B34A;
+    border-color: #D9B34A;
 }
 
 .social-item i::before {
@@ -628,7 +700,7 @@ nav.navbar {
     gap: 10px;
     align-items: center;
     font-family: 'sansdn_bold';
-    color: #FFF;
+    color: #E7F5F1;
     font-size: 24px;
 }
 
@@ -637,22 +709,22 @@ nav.navbar {
     width: 5px;
     border-radius: 10px;
     height: 30px;
-    background-color: #02c6d6;
+    background-color: #D9B34A;
 }
 
 .quick-link {
     font-family: 'sansdn_regular';
     font-size: 17px;
-    color: #9dbae8;
+    color: #E7F5F1;
     transition: color .3s ease-in-out;
 }
 
 .quick-link:hover {
-    color: #02c6d6;
+    color: #D9B34A;
 }
 
 .quick-link i {
-    color: #02c6d6;
+    color: #D9B34A;
 }
 /* footer */
 
@@ -1199,23 +1271,23 @@ nav.navbar {
 }
 
 .missions-wrapper, .statistics-wrapper {
-    background-color: #043056;
+    background-color: #087F75;
     border-radius: 20px;
 }
 
 .mission-icon, .stat-icon {
-    color: #ffca16;
+    color: #D9B34A;
     font-size: 38px;
 }
 
 .mission-title, .stat-title {
-    color: white;
+    color: #E7F5F1;
     font-family: 'sansdn_bold';
     font-size: 20px;
 }
 
 .mission-content, .stat-content {
-    color: #afc9e2;
+    color: #cae4db;
     font-family: 'sansdn_regular';
     font-size: 15px;
 }
