@@ -38,7 +38,7 @@ new Swiper('.last-events-swiper', {
     },
 });
 
-new Swiper('.gallery-swiper', {
+new Swiper('.tourism-swiper', {
     slidesPerView: 3,
     grid: {
         rows: 2,

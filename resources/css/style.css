@@ -633,12 +633,12 @@ nav.navbar {
 /* last news */
 
 /* gallery section */
-.gallery-item {
+.tourism-item {
     border-radius: 20px !important;
     overflow: hidden;
 }
 
-.gallery-content-wrapper {
+.tourism-content-wrapper {
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -653,7 +653,7 @@ nav.navbar {
     transition: transform .45s ease;
 }
 
-.gallery-item:hover .gallery-content-wrapper {
+.tourism-item:hover .tourism-content-wrapper {
     transform: translateY(0);
 }
 
@@ -689,11 +689,11 @@ nav.navbar {
     transition: transform .45s ease;
 }
 
-.gallery-item:hover .g-category {
+.tourism-item:hover .g-category {
     transform: translateY(0);
 }
 
-.gallery-next, .gallery-prev {
+.tourism-next, .tourism-prev {
     width: 60px;
     height: 60px;
     background-color: #051934e8;
@@ -1500,3 +1500,27 @@ nav.navbar {
     color: #075b57;
 }
 /* end of 404 page */
+
+/* traveler page */
+.urban-service-item {
+    padding: 20px 8px;
+    border-radius: 15px;
+    transition: all .35s ease;
+    transform: translateY(0) scale(1);
+    transform-origin: center;
+    background-color: #f4f4f5;
+    z-index: 10;
+}
+
+.urban-service-item:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18) !important;
+    z-index: 100000;
+}
+
+.urban-service-item h3 {
+    font-family: 'sansdn_bold';
+    font-size: 18px;
+    color: #01102A;
+}
+/* end of traveler page */
